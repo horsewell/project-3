@@ -1,0 +1,56 @@
+-- WITH WeeklyData AS (
+--   SELECT
+--     company_id,
+--     date_trunc('week', data) AS week_starting,
+--     AVG(close) AS weekly_avg_close,
+--     SUM(volume) AS weekly_volume
+--   FROM amzn
+--   UNION ALL
+--   SELECT
+--     company_id,
+--     date_trunc('week', data) AS week_starting,
+--     AVG(close) AS weekly_avg_close,
+--     SUM(volume) AS weekly_volume
+--   FROM appl
+--   UNION ALL
+--   SELECT
+--     company_id,
+--     date_trunc('week', data) AS week_starting,
+--     AVG(close) AS weekly_avg_close,
+--     SUM(volume) AS weekly_volume
+--   FROM meta
+--   UNION ALL
+--   SELECT
+--     company_id,
+--     date_trunc('week', data) AS week_starting,
+--     AVG(close) AS weekly_avg_close,
+--     SUM(volume) AS weekly_volume
+--   FROM nflx
+--   GROUP BY company_id, week_starting
+-- ),
+-- MonthlyData AS (
+--   SELECT
+--     company_id,
+--     date_trunc('month', data) AS month_starting,
+--     AVG(close) AS monthly_avg_close,
+--     SUM(volume) AS monthly_volume
+--   FROM WeeklyData
+--   GROUP BY company_id, month_starting
+-- )
+-- SELECT
+--   wd.company_id,
+--   wd.week_starting AS period_starting,
+--   'Weekly' AS period,
+--   wd.weekly_avg_close,
+--   wd.weekly_volume
+-- FROM WeeklyData wd
+-- UNION ALL
+-- SELECT
+--   md.company_id,
+--   md.month_starting AS period_starting,
+--   'Monthly' AS period,
+--   md.monthly_avg_close,
+--   md.monthly_volume
+-- FROM MonthlyData md;
+
+select * from nflx;
