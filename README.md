@@ -19,7 +19,11 @@ We used Jupyter Notebook with matplotlib and ipywidgets for creating line plotti
 The graph showing the Closing stock prices can be seen here:
 
 ![MANA](Output/MANA_Stock Price_without_normalisation.png)
+
 ![META](Output/META_Stock_Price.png)
+
 ![AMZN](Output/AMZN_Stock_Price.png)
+
 ![NFLX](Output/NFLX_Stock_Price.png)
+
 ![AAPL](Output/AAPL_Stock_Price.png)
