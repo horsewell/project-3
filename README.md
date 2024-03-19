@@ -19,12 +19,22 @@ Take a look at the graph to see how MANA has performed:
 
 ![MANA](Output/MANA_Stock_Price_without_normalisation.png)
 
+![MANA](Output/MANA_Normalised_Stock Price_200days.png)
+
 ![META](Output/META_Stock_Price.png)
+
+![META](META_Normalised_Stock_Price.png)
 
 ![AMZN](Output/AMZN_Stock_Price.png)
 
+![AMZN](Output/AMZN_Normalised_Stock_Price.png)
+
 ![NFLX](Output/NFLX_Stock_Price.png)
+
+![NFLX](Output/NFLX_Normalised_Stock_Price.png)
 
 ![AAPL](Output/AAPL_Stock_Price.png)
 
-Normalised stock can be seen here
+![AAPL](Output/AAPL_Normalised_Stock_Price.png)
+
+
