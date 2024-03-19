@@ -8,7 +8,7 @@ We aim to produce 3 graphs to provide potential investors this information:
 2. The month-to-month variance of MANA over the last 10 years
 3. The relationship between stock volume and stock price of MANA
 
-[A pdf of the Presentation](https://github.com/horsewell/project-3/blob/main/Presentation-Financial%20Analysis%20of%20MANA.pdf)
+[A pdf of the Presentation](https://github.com/horsewell/project-3/blob/main/Financial%20Analysis%20of%20MANA.pdf)
 
 These graphs were chosen as we believe they would provide potential investors a clear insight into the kinds of patterns they can look for in order to know when the best possible time to invest in a company would be to potentially earn a return on the investment. In order to assist viewers in making the choice that is right for them, our graphs will include (where appropriate) some features that would make analysing the graphs easier. These inclusions include: trendlines, averages, volume analysis and bollinger bands.
 
