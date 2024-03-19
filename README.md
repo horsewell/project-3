@@ -12,13 +12,12 @@ We aim to produce 3 graphs to provide potential investors this information:
 These graphs were chosen as we believe they would provide potential investors a clear insight into the kinds of patterns they can look for in order to know when the best possible time to invest in a company would be to potentially earn a return on the investment. In order to assist viewers in making the choice that is right for them, our graphs will include (where appropriate) some features that would make analysing the graphs easier. These inclusions include: trendlines, averages, volume analysis and bollinger bands.
 
 1. The performance of MANA over the last 10 years:
-Data was pulled from yahoo finance for the year start date from 2014-03-05 to date end of 2024-03-05.
-The dataset was pretty clean with minimum requirement to clean. 
-We used Jupyter Notebook with matplotlib and ipywidgets for creating line plotting and the interactive data visualisation.
+Here is an analysis of MANA's price movement over the past decade starting from 5th of March 2014 to 5th March 2024. We used Yahoo Finance for the data and made sure it didn't have any missing information using the 'data.isnull().sum()' command.
+To see how the closing price move overtime, we created an interactive line graph. We used Jupyter Notebook, along with matplotlib and ipywidgets to the interactive line graph.
 
-The graph showing the Closing stock prices can be seen here:
+Take a look at the graph to see how MANA has performed:
 
-![MANA](Output/MANA_Stock Price_without_normalisation.png)
+![MANA](Output/MANA_Stock_Price_without_normalisation.png)
 
 ![META](Output/META_Stock_Price.png)
 
@@ -27,3 +26,5 @@ The graph showing the Closing stock prices can be seen here:
 ![NFLX](Output/NFLX_Stock_Price.png)
 
 ![AAPL](Output/AAPL_Stock_Price.png)
+
+Normalised stock can be seen here
