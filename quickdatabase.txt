@@ -1,0 +1,10 @@
+Stock
+-
+ID PK int
+StockCode string
+Date Date
+Close  float
+Volume  float
+Open float
+High  float
+Low  float
