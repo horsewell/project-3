@@ -19,7 +19,7 @@ Take a look at the graph to see how MANA has performed:
 
 ![MANA](Output/MANA_Stock_Price_without_normalisation.png)
 
-![MANA](Output/MANA_Normalised_Stock Price_200days.png)
+![MANA](Output/MANA_Normalised_Stock_Price_200days.png)
 
 ![META](Output/META_Stock_Price.png)
 
