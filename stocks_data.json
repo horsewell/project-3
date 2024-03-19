@@ -1,0 +1,60 @@
+{
+    "type": "database",
+    "name": "stocks_data",
+    "objects": [
+        {
+            "type": "table",
+            "database": null,
+            "name": "Stock",
+            "withoutRowId": false,
+            "strict": false,
+            "ddl": "CREATE TABLE Stock (id INTEGER PRIMARY KEY NOT NULL, StockCode string, Date date, Close FLOAT, Volume FLOAT, Open FLOAT, High FLOAT, Low FLOAT)",
+            "columns": [
+                {
+                    "name": "id",
+                    "type": "INTEGER",
+                    "constraints": [
+                        {
+                            "type": "PRIMARY KEY",
+                            "definition": "PRIMARY KEY "
+                        },
+                        {
+                            "type": "NOT NULL",
+                            "definition": "NOT NULL"
+                        }
+                    ]
+                },
+                {
+                    "name": "StockCode",
+                    "type": "string"
+                },
+                {
+                    "name": "Date",
+                    "type": "date"
+                },
+                {
+                    "name": "Close",
+                    "type": "FLOAT"
+                },
+                {
+                    "name": "Volume",
+                    "type": "FLOAT"
+                },
+                {
+                    "name": "Open",
+                    "type": "FLOAT"
+                },
+                {
+                    "name": "High",
+                    "type": "FLOAT"
+                },
+                {
+                    "name": "Low",
+                    "type": "FLOAT"
+                }
+            ],
+            "rows": [
+            ]
+        }
+    ]
+}
