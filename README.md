@@ -40,7 +40,7 @@ AMZN and AAPL experienced a slight dip in mid-2022, with some fluctuations at th
 The usage of Yahoo Finance allowed for the selection of MANA's closing prices and volumes over the selected period, customising to obtain datapoints for every week during those 10 years. Using plotly, an interactive scatter graph was created showing the relationship between the stock prices and volumes for MANA. The dropdown menu allows for the selection of either all of MANA all at once, or to select for each member of MANA individually for a more specific, singular visualisation.
 
 The graph below will show the stock volume and price relationship:
-![Stock Closing Price vs Volume](pricevolgraph.html)
+![Stock Closing Price vs Volume](https://horsewell.github.io/project-3/pricevolgraph.html)
 
 
  
