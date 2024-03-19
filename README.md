@@ -21,22 +21,13 @@ Take a look at the graph to see how MANA has performed:
 
 ![MANA](Output/MANA_Normalised_Stock_Price_200days.png)
 
-![META](Output/META_Stock_Price.png)
+![META](Output/META_Stock_Price_new.png)
 
-![META](Output/META_Normalised_Stock_Price.png)
+![AMZN](Output/AMZN_Stock_Price_new.png)
 
-![AMZN](Output/AMZN_Stock_Price.png)
+![NFLX](Output/NFLX_Stock_Price_new.png)
 
-![AMZN](Output/AMZN_Normalised_Stock_Price.png)
-
-![NFLX](Output/NFLX_Stock_Price.png)
-
-![NFLX](Output/NFLX_Normalised_Stock_Price.png)
-
-![AAPL](Output/AAPL_Stock_Price.png)
-
-![AAPL](Output/AAPL_Normalised_Stock_Price.png)
-
+![AAPL](Output/AAPL_Stock_Price_new.png)
 
 MANA's price was trending up from 2014 to the end of 2021. In contrast, META and NFLX saw significant drops of more than 50% at the beginning of 2022. Meanwhile, AMZN and AAPL's prices remained relatively stable.
 
